@@ -1,3 +1,12 @@
+as with our attempts at he wowehina pop'n pcb we developed what we wanted based on the problems we had - our own design would eventually do away with the additional USB port and the side facing LEDs. our class project is working on changing up some parts of gp2040-ce firmware to make the web interface relevant and straight forward just for this controller and the shape being somewhat different for lighting effects to bring our yuancon SDVXlite (with the typos) homage. to prototype the change to a rp2040nano and being nowhere near having the top design finished we knocked this up to replace our poorly looking PCBs from the SpeedyPotato , repeated soldering, bad LEDs, clumsy repairs, clumsy playing put them to the test - this lines up so we could reuse our top plates. As it is the traces are like a drunk octopus but it works and meets the different needs we had. the rp2040zero is mounted underneath but faces upright so the top of it (with the bootsel button etc) is facing inwward to the controller, using header pins through the holes makes it very rigid and over-keen-child friendly. no repairs needed yet and £5 cheaper per device in parts
+
+<img width="2160" height="1349" alt="3D_Pocket-SDVX-Pico_2026-01-23" src="https://github.com/user-attachments/assets/853a3255-59d2-421c-a2d7-2f79473e891d" />
+
+
+
+same as the other projects, this will get tidied up whenever time allows, gpio pins are different so adding modified version of SP's firmwware that works but it's not proper as this LED layout is temporary so i'e not touvched that, they light up.
+
+
 # Pocket-SDVX-Pico-v4
 Pocket SDVX Pico v4 source files, production files, and documentation
 
